@@ -45,7 +45,7 @@ function Services() {
           {services.map((service, index) => (
             <div key={index} className="service-card">
               <div className="service-image">
-                <img src="/placeholder.webp" alt={service.title} className="service-img" />
+                <img src={`${import.meta.env.BASE_URL}placeholder.webp`} alt={service.title} className="service-img" />
               </div>
               <div className="service-content">
                 <h3 className="service-title">{service.title}</h3>

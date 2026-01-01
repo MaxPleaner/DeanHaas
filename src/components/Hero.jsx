@@ -12,7 +12,7 @@ function Hero() {
   return (
     <section id="home" className="hero">
       <div className="hero-image">
-        <img src="/placeholder.webp" alt="Nursery Collection" className="hero-img" />
+        <img src={`${import.meta.env.BASE_URL}placeholder.webp`} alt="Nursery Collection" className="hero-img" />
       </div>
       <div className="hero-content">
         <h1 className="hero-title">Landscaping & Gardening</h1>

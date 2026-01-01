@@ -6,7 +6,7 @@ function About() {
     <section id="about" className="about">
       <div className="about-container">
         <div className="about-image">
-          <img src="/placeholder.webp" alt="About Dean Haas" className="about-img" />
+          <img src={`${import.meta.env.BASE_URL}placeholder.webp`} alt="About Dean Haas" className="about-img" />
         </div>
         <div className="about-content">
           <h2 className="section-title">About</h2>
